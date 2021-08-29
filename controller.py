@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-PATH_PLS = r'C:\networks\work\mobileye part4_integration\play_list.pls'
+PATH_PLS = r'./play_list.pls'
 f = open(PATH_PLS, 'r')
 lst_pls_path = []
 for path in f:
