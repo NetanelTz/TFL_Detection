@@ -6,7 +6,7 @@ Detect Traffic Lights inside images, find thier positions and calculate distance
 ![Image](./Figure_1.jpg)
 
 ## Predict
-![Image](./part2/TFL-Predict.png)
+![Image](./TFL-Predict.png)
 
 ## Detect & Calculate Distance
 ![Image](./Figure_2.png)
