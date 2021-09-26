@@ -5,24 +5,29 @@ The project consists of 4 parts, as described below.
 
 ## Detect
 First part: detect TFLs in images by unique kernel and mark the source light. 
-(Source code file - RGB_filtering.py)
+
+(Source code file - RGB_filtering.py).
 
 ![Image](./Figure_1.jpg)
 
 ## Predict
 Second part: training a model to recognize TFLs.
-(Source code directory - dataset_training)
+
+(Source code directory - dataset_training).
 
 ![Image](./TFL-Predict.png)
 
 ## Detect & Calculate Distance
 Third part: calculate distance to tfl by geometric and linear algebra calculations.
-(Source code directory - SFM)
+
+(Source code directory - SFM).
 
 ![Image](./Figure_2.png)
 
 ## Integration
 Last part: integrate all parts to one functional software.
+
+(Source code files - main.py, controller.py).
 
 ## Collaborators
 - [Omer Hadad](https://github.com/omerhad)
